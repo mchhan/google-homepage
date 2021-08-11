@@ -1,9 +1,7 @@
-
 .nav{
     list-style-type: none;
     display: flex;
-    justify-content: flex-start;
-    text-align: left;
+    justify-content: space-between;
 }
 
 .About {
@@ -37,22 +35,29 @@
 
 .navbarleft {
     display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    align-items: flex-start;
 }
 
 .navbarright {
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-    align-items: flex-start;
+    display: flex
 }
 
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .footer {
     list-style: none;
     display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 .advertising {
@@ -79,6 +84,13 @@
     padding: 20px;
 }
 
+.footerleft {
+    display: flex;
+}
+
+.footerright {
+    display: flex;
+}
 
 a:link {
     text-decoration: none;
