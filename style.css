@@ -1,0 +1,97 @@
+
+.nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.About {
+    padding: 20px;
+}
+
+.Store {
+    padding: 20px;
+}
+
+.Gmail {
+    padding: 20px;
+}
+
+.Images {
+    padding: 20px;
+}
+
+.GoogleAppsDropdown {
+    padding: 20px;
+}
+
+.dropdownicon {
+    height: 30px;
+    width: 30px;
+}
+
+.GoogleAccount {
+    padding: 20px;
+}
+
+.navbarleft {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.navbarright {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+
+.footer {
+    list-style: none;
+    display: flex;
+}
+
+.advertising {
+    padding: 20px;
+}
+
+.business {
+    padding: 20px;
+}
+
+.howsearchworks {
+    padding: 20px;
+}
+
+.privacy {
+    padding: 20px;
+}
+
+.terms  {
+    padding: 20px;
+}
+                    
+.settings {
+    padding: 20px;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
