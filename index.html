@@ -1,10 +1,16 @@
 <!DOCTYPE html>
     <main>
+        <head>
+            <link rel="stylesheet" href="style.css">
+        </head>
+
         <body>
             <header id="header">
-                <div class="nav-box>
+                <div class="nav-box">
                     <nav id="navbar">
                         <ul class="nav">
+
+                            <div class="navbarleft">
                             <div class="About">
                                 <li>
                                     <a href="#_blank"> About </a>
@@ -16,7 +22,9 @@
                                     <a href="#_blank"> Store </a>
                                 </li>
                             </div>
+                            </div>
                             
+                            <div class="navbarright">
                             <div class="Gmail">
                                 <li>
                                     <a href="#_blank"> Gmail </a>
@@ -29,30 +37,20 @@
                                 </li>
                             </div>
 
-                            <style>
-                                .nav{
-                                    list-style-type: none;
-                                    display: flex;
-                                    justify-content: flex-start;
-                                    text-align: left;
-                                }
+                            <div class="GoogleAppsDropdown">
+                                <li>
+                                    <a href="#_blank">
+                                        <img class="dropdownicon" src="https://cdn.icon-icons.com/icons2/2367/PNG/512/grid_x_icon_143582.png" alt="Google_Apps_Dropdown">
+                                    </a>
+                                </li>
+                            </div>
 
-                                .About {
-                                    padding: 20px;
-                                }
-
-                                .Store {
-                                    padding: 20px;
-                                }
-
-                                .Gmail {
-                                    padding: 20px;
-                                }
-
-                                .Images {
-                                    padding: 20px;
-                                }
-                            </style>
+                            <div class="GoogleAccount">
+                                <li>
+                                    <button type="button"> Sign In </button>
+                                </li>
+                            </div>
+                            </div>
                         </ul>
                     </div>
             </header>
@@ -71,9 +69,10 @@
                     <label id="googlesearch">
                         <input type="text" placeholder="Search..." id="search"></input>
                     </label>
-
-                <button type="submit" submit="Google_Search"> Google Search </button>
-                <button type="submit" submit="I'm_Feeling_Lucky"> I'm Feeling Lucky </button>
+                <p>
+                    <button type="submit" submit="Google_Search"> Google Search </button>
+                    <button type="submit" submit="I'm_Feeling_Lucky"> I'm Feeling Lucky </button>
+                </p>
             </div>
 
             <footer id="footer">
@@ -114,37 +113,6 @@
                         </li>
                     </div>
                 </ul>
-
-                <style>
-                    .footer {
-                        list-style: none;
-                        display: flex;
-                    }
-
-                    .advertising {
-                        padding: 20px;
-                    }
-
-                    .business {
-                        padding: 20px;
-                    }
-
-                    .howsearchworks {
-                        padding: 20px;
-                    }
-
-                    .privacy {
-                        padding: 20px;
-                    }
-
-                    .terms  {
-                        padding: 20px;
-                    }
-                    
-                    .settings {
-                        padding: 20px;
-                    }
-                </style>
             </footer>
 
 
