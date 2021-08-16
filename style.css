@@ -58,6 +58,12 @@ footer {
     font-size: 13px;
 }
 
+.signin {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+}
+
 .navbarleft {
     display: flex;
 }
@@ -81,8 +87,10 @@ footer {
 }
 
 .searchbar input {
-    height: 40px;
+    height: 45px;
     width: 600px;
+    background: url("search_icon.png") left no-repeat;
+    border-radius: 25px;
 }
 
 p {
